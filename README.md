@@ -5,12 +5,8 @@ prettyson
 Lazy JSON command line prettifier.
 
 
-Install:
-
+### Install
 ```npm install prettyson -g```
 
-
-Usage:
-
-```curl -su token:secret https://cool.webapi.foo | prettyson
-
+### Usage
+```curl -su token:secret https://cool.webapi.foo | prettyson```
