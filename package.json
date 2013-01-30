@@ -1,6 +1,6 @@
 {
   "name": "prettyson",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "stdin JSON pretty print",
   "main": "index.js",
   "repository": "https://github.com/tralamazza/prettyson",
@@ -8,6 +8,7 @@
   "bin": "./index.js",
   "license": "MIT",
   "dependencies": {
-    "eyes": "~0.1.8"
+    "eyes": "~0.1.8",
+    "optimist": "~0.3.5"
   }
 }

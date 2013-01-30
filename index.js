@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-var eyes = require('eyes');
+var argv = require('optimist').argv;
+var inspect = require('eyes').inspector({
+  maxLength: argv.l || 1024 * 32
+});
 
 var data = '';
 
@@ -12,5 +15,5 @@ process.stdin.on('data', function (chunk) {
 });
 
 process.stdin.on('end', function () {
-  eyes.inspect(JSON.parse(data));
+  inspect(JSON.parse(data));
 });
