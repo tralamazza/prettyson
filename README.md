@@ -1,5 +1,6 @@
 prettyson
 =========
+[![endorse](http://api.coderwall.com/tralamazza/endorsecount.png)](http://coderwall.com/tralamazza)
 
 
 Lazy JSON command line prettifier.
