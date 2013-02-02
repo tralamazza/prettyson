@@ -11,3 +11,9 @@ Lazy JSON command line prettifier.
 
 ### Usage
 ```curl -su token:secret https://cool.webapi.foo | prettyson```
+
+```echo '{ "foo": "bar" }' | prettyson```
+
+### Todo/Ideas
+* json stream parser
+* fancy output options
